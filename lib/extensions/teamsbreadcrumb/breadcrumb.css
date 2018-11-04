@@ -1,0 +1,154 @@
+.ms-dialog .ms-Breadcrumb {
+    display: none;
+}
+ 
+.ms-Breadcrumb {
+    margin: 0 0 10px 0;
+}
+ 
+li.ms-Breadcrumb-listItem:first-child a {
+    padding-left: 0;
+}
+ 
+.ms-Breadcrumb.is-overflow .ms-Breadcrumb-overflow {
+    display: inline
+}
+ 
+.ms-Breadcrumb-chevron {
+    font-size: 17px;
+    color: #666;
+    vertical-align: top;
+    margin: 10px 0
+}
+ 
+.ms-Breadcrumb-list {
+    display: inline;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0
+}
+ 
+.ms-Breadcrumb-list .ms-Breadcrumb-listItem {
+    list-style-type: none;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    display: inline-block
+}
+ 
+.ms-Breadcrumb-list .ms-Breadcrumb-listItem:last-of-type .ms-Breadcrumb-chevron {
+    display: none
+}
+ 
+.ms-Breadcrumb-overflow {
+    display: none;
+    position: relative;
+    margin-right: -4px
+}
+ 
+.ms-Breadcrumb-overflow .ms-Breadcrumb-overflowButton {
+    font-size: 12px;
+    display: inline-block;
+    color: #0078d7;
+    margin-right: -4px;
+    padding: 12px 8px 3px;
+    cursor: pointer
+}
+ 
+.ms-Breadcrumb-overflowMenu {
+    display: none;
+    position: absolute
+}
+ 
+.ms-Breadcrumb-overflowMenu.is-open {
+    display: block;
+    top: 36px;
+    left: 0;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.4);
+    background-color: #fff;
+    border: 1px solid #c8c8c8;
+    z-index: 5
+}
+ 
+.ms-Breadcrumb-overflowMenu:before {
+    position: absolute;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.4);
+    top: -6px;
+    left: 6px;
+    content: ' ';
+    width: 16px;
+    height: 16px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #fff
+}
+ 
+.ms-Breadcrumb-overflowMenu .ms-ContextualMenu {
+    border: none;
+    box-shadow: none;
+    position: relative;
+    width: 190px
+}
+ 
+.ms-Breadcrumb-overflowMenu .ms-ContextualMenu.is-open {
+    margin-bottom: 0
+}
+ 
+.ms-Breadcrumb-itemLink,.ms-Breadcrumb-overflowButton {
+    text-decoration: none;
+    outline: transparent
+}
+ 
+.ms-Breadcrumb-itemLink:hover,.ms-Breadcrumb-overflowButton:hover {
+    background-color: #f4f4f4;
+    cursor: pointer
+}
+ 
+.ms-Breadcrumb-itemLink:focus,.ms-Breadcrumb-overflowButton:focus {
+    outline: 1px solid #767676;
+    color: #000
+}
+ 
+.ms-Breadcrumb-itemLink:active,.ms-Breadcrumb-overflowButton:active {
+    outline: transparent;
+    background-color: #c8c8c8
+}
+ 
+.ms-Breadcrumb-itemLink {
+    color: #333;
+    font-family: Segoe UI Light WestEuropean,Segoe UI Light,Segoe UI,Tahoma,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+ 
+.ms-Breadcrumb span:hover{
+    cursor: default;
+    background:none;
+}
+ 
+.ms-Breadcrumb a:hover{
+    text-decoration: none;
+}
+ 
+.ms-Breadcrumb a, .ms-Breadcrumb a:visited{
+    color: #23527c;
+}
+ 
+.ms-Breadcrumb-itemLink {
+    font-size: 14px;
+}
+ 
+li.ms-Breadcrumb-listItem i {
+    font-size: 14px;
+    margin: 4px 0;
+}
+ 
+#breadcrumbWrapper{
+    padding: 5px 18px 2px 18px;
+    background-color: #f4f4f4;
+}
